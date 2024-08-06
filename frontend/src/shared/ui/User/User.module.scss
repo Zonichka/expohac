@@ -1,0 +1,31 @@
+.User{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+    margin-left: auto;
+    text-decoration: none;
+    &_Exit{
+        width: 25px;
+        height: 25px;
+    }
+    &_Avatar{
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    &_Info{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        &_Login{
+            font-size: 20px;
+        }
+        &_Email{
+            font-size: 16px;
+            color: #FF8F32;
+        }
+    }
+}
